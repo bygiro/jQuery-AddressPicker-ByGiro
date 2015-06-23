@@ -6,7 +6,7 @@ A jQuery plugin to convert a simple text input to a fully featured google maps a
 ### Install with Bower
 
 ```bash
-$ bower install jquery-addresspicker-bygiro --save
+$ bower install jquery-addresspicker --save
 ```
 
 check the demo
