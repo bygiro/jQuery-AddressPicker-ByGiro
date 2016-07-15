@@ -1,12 +1,12 @@
 {
-  "name": "jQuery-AddressPicker-ByGiro",
+  "name": "jquery-addresspicker",
   "version": "v0.0.9",
   "author": "G. Tomaselli <girotomaselli@gmail.com>",
   "contributors": [],
   "homepage": "http://bygiro.com/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bygiro/jquery-addressPickerByGiro.git"
+    "url": "git://github.com/bygiro/jquery-addressPicker-ByGiro.git"
   },
   "main": [
     "dist/jquery.addressPickerByGiro.js",
