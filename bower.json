@@ -1,6 +1,6 @@
 {
   "name": "jQuery addressPicker ByGiro",
-  "version": "v0.0.8",
+  "version": "v0.0.9",
   "authors": [
     "G. Tomaselli <girotomaselli@gmail.com>"
   ],
@@ -25,8 +25,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": ">=1.8.x",
-    "bootstrap": ">=2.3.x"
+    "jquery": ">=1.8.x"
   },
   "devDependencies": {
     "chai": "~1.9.1",

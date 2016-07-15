@@ -10,6 +10,7 @@ var bump = require('gulp-bump');
 var filter = require('gulp-filter');
 var tag_version = require('gulp-tag-version');
 var minifyHtml = require("gulp-minify-html");
+var minifyCSS = require('gulp-minify-css');
 
 //Build Vars
 var finalName = 'addressPickerByGiro';
@@ -24,7 +25,18 @@ gulp.task('mkSrc', function() {
     .pipe(gulp.dest('./.tmp/'));
 });
 
-gulp.task('build', ['mkSrc'], function() {
+gulp.task('minifyCss', function () {
+    gulp.src('./src/*.css')
+        .pipe(concat("jquery."+ finalName +'.css'))
+        .pipe(gulp.dest('./dist'))
+        .pipe(minifyCSS())
+        .pipe(rename({
+		  extname: '.min.css'
+		}))
+        .pipe(gulp.dest('./dist'));
+});
+
+gulp.task('build', ['mkSrc','minifyCss'], function() {
   return gulp.src('./.tmp/*.js')
     .pipe(ngAnnotate())
     .pipe(concat("jquery."+ finalName + ".js"))
