@@ -1,13 +1,12 @@
 {
   "name": "jquery-addresspicker",
-  "version": "v0.0.9",
+  "version": "v0.1.0",
   "authors": [
     "G. Tomaselli <girotomaselli@gmail.com>"
   ],
   "contributors": [],
   "main": [
-	"dist/jquery.addressPickerByGiro.js",
-	"dist/jquery.addressPickerByGiro.min.js"
+	"dist/jquery.addressPickerByGiro.js"
   ],
   "description": "jQuery plugin to build a fully featured google maps address picker",
   "keywords": [

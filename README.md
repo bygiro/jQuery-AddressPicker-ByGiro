@@ -1,12 +1,12 @@
-# jQuery plugin: Fully Featured Address Picker
+# jQuery / jqLite plugin: ColorPicker Bygiro
 
-A jQuery plugin to convert a simple text input to a fully featured google maps address picker.
+jQuery / jqLite plugin to build a lightweight colorpicker.
 
 
 ### Install with Bower
 
 ```bash
-$ bower install jquery-addresspicker --save
+$ bower install jquery-colorpicker-bygiro --save
 ```
 
 check the demo
